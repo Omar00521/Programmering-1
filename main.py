@@ -21,4 +21,8 @@ if answer4 == "C" or answer4 == "ac milan":
     score+=5
 
 print("A.Ferrari\n B.Mercedes\n C.Reb BUll ")
-answer5 
+answer5 = input ("Which team has won most constructors championships in the last decade?")
+if answer5 == "B" or answer5 == "Mercedes":
+    score+=10
+
+print(score)
