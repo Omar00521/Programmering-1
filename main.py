@@ -25,4 +25,4 @@ answer5 = input ("Which team has won most constructors championships in the last
 if answer5 == "B" or answer5 == "Mercedes":
     score+=10
 
-print(score)
+
