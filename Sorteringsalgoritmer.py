@@ -1,10 +1,10 @@
-Sorteringsalgoritmer.py
-
-nummer = [3, 5, 3, 6, 2, 9, 1, 12]
 
 
+siffror= [3, 5, 3, 6, 1, 9, 2, 12]
 
-def sort_nmr(nummer):
+
+
+def sort_siffror(siffror):
 
     sorted = True 
 
@@ -15,22 +15,22 @@ def sort_nmr(nummer):
 
         sorted = False
 
-        for i in range (len(nummer)):
+        for o in range (len(siffror)):
 
-            for j in range(len(nummer)- 1):
+            for h  in range(len(siffror)- 1):
 
-                if nummer [j] > nummer[j + 1]:
-
-
+                if siffror [h] > siffror[h + 1]:
 
 
-                    nummer[j], nummer[j + 1] = nummer[j + 1], nummer[j]
+
+
+                    siffror[h], siffror[h + 1] = siffror[h + 1], siffror[h]
 
                     sorted = True
 
 
 
 
-sort_nmr(nummer)
+sort_siffror(siffror)
 
-print(nummer)
+print(siffror)
